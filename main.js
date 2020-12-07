@@ -4,7 +4,8 @@ class Traveler{
         food = 1;
         isHealthy = true;
     hunt(){
-        this.food-=2
+        this.food +=2;
+            
     }
     eat(){
         if(!this.food){this.isHealthy=false;
